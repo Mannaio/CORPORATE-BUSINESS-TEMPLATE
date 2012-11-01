@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vision General</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+	<style>
+    
+	  .tableFloatingHeader {
+		  background: #ededed;
+	  }
+	  
+	  .tableFloatingHeaderOriginal {
+		  padding-top: 2px;
+	  }
+	  
+	  .aCollapsed {
+		  color:red;
+		  font-weight:bold;
+    }
+	
+	#map_canvas { height: 320px; width: 435px; }
+
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+   
+  	</head>
+
+  	<body onLoad="initialize()">
+  	
+	<div class="main">
+	<div class="overlayimage"></div>
+	<img src="img/622410_87315642.jpg" alt="architecture" class="homeimg">
+	</div><!-- /main -->
+
+	<div id="wrapper">
+    	<div class="wrappernav">	
+		<header>
+		<div class="container">
+			<!-- Navigation Bar --> 
+			<div class="navbar">
+				<div class="navbar-inner">
+					<ul class="nav">
+						<li class="active">
+							<a id="presentacion_link" href="Presentacion.html">ABOUT US</a>
+						</li>
+						<li>
+							<a id="productos_link">FINANCIAL PRODUCTS</a>
+						</li>
+					</ul>
+							<a id="logo" href="Home Page.html"></a>
+						<ul class="nav2">
+						<li>
+							<a id="vision_link" href="Vision General.html">GENERAL VIEW</a>
+						</li>
+						<li>
+							<a id="contacto_link" href="Contacto.html">CONTACTS</a>
+						</li>
+					</ul>
+				</div> <!-- /navbar -->
+			</div> <!-- /navbar-inner -->
+		</div> <!-- /container -->
+	</header>
+   </div><!-- /wrappernav -->
+   </div><!-- /wrapper -->
+  
+ <!-- Form -->
+
+	<div id="wrapper2">
+		<div class="wrappercontainer">
+			<div class="container">
+				<div class="page-contacto">
+					<h1>Contact form</h1>
+				</div><!-- /page-contacto -->
+	<div class="row">
+		<div class="span6">
+			<p>Maecenas ac eros augue, quis scelerisque justo. Etiam rhoncus, tortor sed condimentum auctor, nisi lorem sodales risus, vitae iaculis dolor massa sed ante. 				Phasellus nec ultricies leo. Ut euismod metus sed ipsum scelerisque eu cursus enim pretium.Ut vel tincidunt elit. Aenean euismod orci pretium ligula auctor elementum. Donec auctor gravida eros.</p> 
+		<form action="index.php" id="contact-form" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="name">Name</label>
+						<div class="controls">
+							<input type="text" class="input-xlarge" name="name" id="name">
+						</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="email">Email</label>
+						<div class="controls">
+							<input type="text" class="input-xlarge" name="email" id="email">
+						</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="subject">Subject</label>
+						<div class="controls">
+							<input type="text" class="input-xlarge" name="subject" id="subject">
+						</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="message">Comment</label>
+						<div class="controls">
+							<textarea class="input-xlarge" name="message" id="message" rows="6"></textarea>
+						</div>
+				</div>
+				<div class="form-actions">
+					<button type="submit" class="btn">Submit</button>
+					<button type="reset" class="btn">Cancel</button>
+				</div>
+			</fieldset>
+		</form>			
+	</div> 
+	<div class="span6"> 
+		<div class="address-wrapper">
+			<div class="street-address">
+				Full address, nº 38, 9ª Floor <br> xxxx City
+			</div>
+			<div id="map-outer">
+				<div id="map_canvas"></div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+    <hr class="hrfooter">
+  	
+  	<footer>
+   		<p class="footertop"><span class="gesiuris"><img src="img/footerlogo.png" alt="gesiuris"></span></p>
+   		<span class="motto">Investment Management and Financial Advice</span>
+   		<p class="footer">Address, nº xx, xª floor, xxxx City T. XXX XX XX XX / +XX XX XX XX XX F. XX XXX XX XX ©company SGIIC 2012 email@company.com<br></p>
+		 
+	</footer>
+
+	</div>
+	</div>
+    </div><!-- /container -->
+ 
+  <!-- The overlay and the box -->
+        <div class="overlay" id="overlay" style="display:none;"></div>
+        <div class="box" id="productos">
+			 <div class="container">
+    
+	  	<div class="row">
+			<div class="span4">
+				<h3>FONDOS</h3>
+				<hr class="hrsociedades">
+					<ul class="unstyled">
+						<li class="unstyled"><a href="Producto.html">FUND 1</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 2</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 3</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 4</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 5</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 6</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 7</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 8</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 9</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 10</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 11</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 12</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 13</a></li>
+			  			<li class="unstyled"><a href="Producto.html">FUND 14</a></li>
+					</ul>
+			</div><!-- /span4 --> 
+      
+			<div class="span8">
+				<h3>SOCIETIES</h3>
+				<hr class="hrsociedades">
+					<ul class="unstyled">
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 1</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 2</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 3</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 4</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 5</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 6</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 7</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 8</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 9</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 10</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 11</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 12</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 13</a></li>
+					 	<li class="unstyled"><a href="Producto.html">SOCIETY NUM 14</a></li>
+					</ul>
+				<div class="product-list">
+					<ul class="unstyled">
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 15</a></li>
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 16</a></li>
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 17</a></li>
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 18</a></li>
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 19</a></li>
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 20</a></li>
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 21</a></li>
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 22</a></li>
+						<li class="unstyled"><a href="Producto.html">SOCIETY NUM 23</a></li>
+					</ul>
+				</div>
+			</div><!-- /span8 --> 
+		</div><!-- /row --> 
+	</div><!-- /container -->    
+</div> 
+
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA48dFPFPWOBj5bfNqrgny2pRXi60W5hPk&sensor=false"></script>
+   
+   															
+
+	  <!-- Validate plugin -->
+		<script src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/jquery.validate.js"></script>
+    
+		<!-- Scripts specific to this page -->
+		<script src="script.js"></script>
+		
+		<!-- Google Maps -->
+		
+		<script type="text/javascript">
+			var myLatlng = new google.maps.LatLng(41.38803,2.167942);
+			var mapOptions = {
+				zoom: 18,
+				center: myLatlng,
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				}
+			var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+			var marker = new google.maps.Marker({
+		     position: myLatlng,
+		     title:"Hello World!"
+		     });
+
+		     // To add the marker to the map, call setMap();
+		     marker.setMap(map);
+     
+      </script>
+      
+      <!-- jQuery box slide out -->
+
+      <script type="text/javascript">
+          
+          $(function() {
+	      	$('#productos_link').toggle(function() {
+		      	$('#overlay').fadeIn('fast',function(){
+			      	$('#productos').animate({'top':'135px'},500); 
+          });          
+          }, function() {
+ 	          $('#productos').animate({'top':'-400px'},500,function(){
+		          $('#overlay').fadeOut('fast');
+                    });
+                    });
+            });
+              
+      </script>
+
+  </body>
+  
+</html>

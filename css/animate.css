@@ -1,0 +1,61 @@
+ 		a.back{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            background:#fff url(codrops_back.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        a.activator{
+            width:153px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background:#fff url(clickme.png) no-repeat top left;
+            z-index:1;
+            cursor:pointer;
+        }
+        /* Style for overlay and box */
+        .overlay{
+            background:transparent url(../img/overlay.png) repeat top left;
+            position:absolute;
+            top:10px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:2;
+            height: 500px;
+        }
+        .box{
+            position:absolute;
+            top: -400px;
+            left:0%;
+            right:0%;
+            background-color:#cdcdcd;
+            color:#000000;
+            padding:20px;
+            height: 310px;
+            -moz-box-shadow: 0 0 8px 0 #696969 inset;
+            -webkit-box-shadow: 0 0 8px 0 #696969 inset;
+            box-shadow: 0 0 8px 0 #696969 inset;
+            font-family: Georgia,Serif;
+        }
+        .box h1{
+            border-bottom: 1px dashed #7F7F7F;
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#FFEFEF;
+            color:#EF7777;
+        }
+        a.boxclose{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(../img/cancel.png) repeat top left;
+            margin-top:-30px;
+            margin-right:-30px;
+            cursor:pointer;
+        }

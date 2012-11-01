@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script> 
+<meta charset=utf-8 />
+</style>
+  <script type="text/javascript" charset="utf-8">
+    //<![CDATA[
+      window.addEvent('domready', function(){
+        var total = $('total'); // this is the id of the element that will display the number
+        var totalFx = new Fx.CashRegister(total, {duration: 2000});
+        totalFx.start(14.36); // this is the number that you want to show first when page loads
+		var total = $('total1'); // this is the id of the element that will display the number
+        var totalFx = new Fx.CashRegister(total, {duration: 2000});
+        totalFx.start(22257150.76); // this is the number that you want to show first when page loads
+        var total = $('total2'); // this is the id of the element that will display the number
+        var totalFx = new Fx.CashRegister(total, {duration: 2000});
+        totalFx.start(0.75); // this is the number that you want to show first when page loads
+        var total = $('total3'); // this is the id of the element that will display the number
+        var totalFx = new Fx.CashRegister(total, {duration: 2000});
+        totalFx.start(1.05); // this is the number that you want to show first when page loads
+        var total = $('total4'); // this is the id of the element that will display the number
+        var totalFx = new Fx.CashRegister(total, {duration: 2000});
+        totalFx.start(44.38); // this is the number that you want to show first when page loads
+        var total = $('total5'); // this is the id of the element that will display the number
+        var totalFx = new Fx.CashRegister(total, {duration: 2000});
+        totalFx.start(3.87); // this is the number that you want to show first when page loads           
+ 
+        });
+	//]]>
+	</script> 
+	
+	
+	<link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    
+        <style>
+    .table tbody tr:hover td,
+    .table tbody tr:hover th {
+    background-color: #EDEDED;
+    color: #323232;} 
+    
+ 
+    </style>
+
+
+</head>
+
+<body> 
+  
+  
+  	<div class="main">
+		<div class="overlayimage"></div>
+		<img src="img/barcelonahistoria3.jpg" alt="architecture" class="homeimg"> 
+		
+	</div><!-- /main -->
+
+	<div id="wrapper">
+    	<div class="wrappernav">	
+		<header>
+		<div class="container">
+			<!-- Navigation Bar --> 
+			<div class="navbar">
+				<div class="navbar-inner">
+					<ul class="nav">
+						<li class="active">
+							<a id="presentacion_link" href="Presentacion.html">ABOUT US</a>
+						</li>
+						<li>
+							<a id="productos_link">FINANCIAL PRODUCTS</a>
+						</li>
+					</ul>
+							<a id="logo" href="Home Page.html"></a>
+						<ul class="nav2">
+						<li>
+							<a id="vision_link" href="Vision General.html">GENERAL VIEW</a>
+						</li>
+						<li>
+							<a id="contacto_link" href="Contacto.html">CONTACTS</a>
+						</li>
+					</ul>
+				</div> <!-- /navbar -->
+			</div> <!-- /navbar-inner -->
+		</div> <!-- /container -->
+	</header>
+   </div><!-- /wrappernav -->
+   </div><!-- /wrapper -->
+  
+ <!-- Form -->
+
+	<div id="wrapper2">
+		<div class="wrappercontainer">
+			<div class="container">
+				<div class="row">
+					<div class="span8">
+						<div class="single-producto">					
+							<h1>SOCIETY CAPITAL 1, F1</h1>
+							<hr class="hrcontacto">
+						</div>
+			<div class="singleproduct">
+			<p>GESIURIS CAPITAL 1 FI es un fondo global dirigido a inversores que quieran optimizar su patrimonio, sin soportar bruscos movimientos en el valor de sus inversiones.</p>
+			</div>
+			<div class="description">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat lacus, pulvinar non dictum et, varius sit amet tellus pulvinar non dictum et, varius sit amet tellus pulvinar 			non dictum et, varius sit amet tellus pulvinar non dic llus.
+			</div> 
+			
+		</div> 
+		<div class="span4">
+        	<div class="containertable"> 
+				<table class="table">
+					<tbody>
+						<tr>
+							<td id="productoleft">MANAGER</td>
+							<td>Name Surname</td>
+							</tr>
+						<tr>
+							<td id="productoleft">HOLDER</td>
+							<td>Investment S.A</td>
+						</tr>
+						<tr>
+							<td id="productoleft">AUDITOR</td>
+							<td>Auditor Name</td>
+						</tr>
+						<tr>
+							<td id="productoleft">NÚM. REG. CNMV</td>
+							<td>2.670</td>
+						</tr>
+						<tr>
+							<td id="productoleft">CATEGORY</td>
+							<td>Global</td>
+						</tr>
+						<tr>
+							<td id="productoleft">CURRENCY</td>
+							<td>EUR</td>
+						</tr>
+					</tbody>
+				</table>
+          </div>  
+		</div>
+	</div>     
+
+	<div class="container">
+		 <div class="row row-padded">
+			 <div class="span4"> 
+				<h4>MARKET VALUE</h4>
+					<div class="value-container">   
+					<div class="first-value"><p id="total">0.99</p></div><div class="second-value"><span class="secondvalue">€</span></div> 
+					</div> 
+					<br />
+				<div class="values">
+					<h4>PATRIMONY</h4>
+						<div class="first-value"><p id="total1">0.99</p></div><div class="second-value-patrimonio"><span class="secondvalue">€</span></div>
+				</div>
+			</div>
+			<div class="span4">
+				<h4>INCOME</h4>
+					<div class="first-value"><p id="total2">0.01</p></div><div class="second-value-percentage"><span class="secondvalue">%</span></div>  
+				<br />
+				<div class="values">
+					<h4>TAE 2012</h4>
+					<div class="first-value"><p id="total3">0.01</p></div><div class="second-value-percentage"><span class="secondvalue">%</span></div>      
+						 
+				</div>
+			</div>
+			<div class="span4">
+				<h4>INCOME FROM INSCRIPTION</h4>
+				<div class="first-value"><p id="total4">0.99</p></div><div class="second-value"><span class="secondvalue">%</span></div>
+				<br />
+				<div class="values">
+					<h4>TAE POR YEAR</h4>
+						<div class="first-value"><p id="total5">0.99</p></div><div class="second-value-percentage"><span class="secondvalue">%</span></div>       
+				</div>
+			</div>
+		</div>
+		<div class="row row-title">
+        	<h1>DOCUMENTS</h1>
+        </div>
+        <div class="row row-producto">
+       		<div class="span5">
+        		<a><div class="document">
+        		<img src="img/Adobe-Reader.png" alt="Adobe-Reader" class="adobe">
+        		<p>TECHNICAL DESCRIPTION</p>
+                </div></a>
+			</div>
+			<div class="span5">
+				<a><div class="document">
+				<img src="img/Adobe-Reader.png" alt="Adobe-Reader" class="adobe">
+				<p>IDENTIFICATION<br />CARD</p>
+                </div></a>
+			</div>
+			<div class="span5">
+				<a><div class="document">
+				<img src="img/Adobe-Reader.png" alt="Adobe-Reader" class="adobe">
+				<p>LAST REPORT</p>
+                </div></a>
+			</div>
+			<div class="span5">
+				<a><div class="document">
+				<img src="img/Adobe-Reader.png" alt="Adobe-Reader" class="adobe">
+				<p>PREVIOUS<br />REPORTS</p>
+                </div></a>
+			</div>
+			<div class="span5">
+				<a><div class="document">
+				<img src="img/Adobe-Reader.png" alt="Adobe-Reader" class="adobe">
+				<p>INFOS FOR<br />INVESTORS</p>
+                </div></a>
+			</div>      
+		</div>
+        <div class="row row-producto2">
+			<div class="span5">
+				<a><div class="document">
+				<img src="img/Adobe-Reader.png" alt="Adobe-Reader" class="adobe">
+				<p>BROCHURE COMPLETE</p>
+                </div></a>
+			</div>
+			<div class="span5">
+				<a><div class="document">
+				<img src="img/Adobe-Reader.png" alt="Adobe-Reader" class="adobe">
+				<p>MANAGEMENT CONDITIONS</p>
+                </div></a>
+			</div>
+			<div class="span5">
+				<a><div class="document">
+				<img src="img/Adobe-Reader.png" alt="Adobe-Reader" class="adobe">
+				<p>BALANCE</p>
+                </div></a>
+			</div>
+        </div>
+        </div>
+	
+
+	
+    <hr class="hrfooter">
+  	
+  	<footer>
+   		<p class="footertop"><span class="gesiuris"><img src="img/footerlogo.png" alt="gesiuris"></span></p>
+   		<span class="motto">Investment Management and Financial Advice</span>
+   		<p class="footer">Address, nº xx, xª floor, xxxx City T. XXX XX XX XX / +XX XX XX XX XX F. XX XXX XX XX ©company SGIIC 2012 email@company.com<br></p>
+		 
+	</footer>
+
+
+	</div>
+	</div>
+    </div><!-- /container -->
+ 
+  <!-- The overlay and the box -->
+        <div class="overlay" id="overlay" style="display:none;"></div>
+        <div class="box" id="productos">
+			 <div class="container">
+    
+	  	<div class="row">
+			<div class="span4">
+				<h3>FONDOS</h3>
+				<hr class="hrsociedades">
+					<ul class="unstyled">
+						<li class="unstyled"><a href="Producto.html">GESIURIS CAPITAL, 1</a></li>
+			  			<li class="unstyled"><a href="Producto.html">GESIURIS CAPITAL, 2</a></li>
+			  			<li class="unstyled"><a href="Producto.html">GESIURIS CAPITAL, 3</a></li>
+			  			<li class="unstyled"><a href="Producto.html">IURISFOND</a></li>
+			  			<li class="unstyled"><a href="Producto.html">CAT OCC RENTA FIJA CP</a></li>
+			  			<li class="unstyled"><a href="Producto.html">CAT OCC PATRIMONIO</a></li>
+			  			<li class="unstyled"><a href="Producto.html">CAT OCC ESPAÑOLA</a></li>
+			  			<li class="unstyled"><a href="Producto.html">ESTUBROKER GAC I</a></li>
+			  			<li class="unstyled"><a href="Producto.html">PRIVARY V GLOBAL</a></li>
+			  			<li class="unstyled"><a href="Producto.html">CAT OCC BOLSA MUNDIAL</a></li>
+			  			<li class="unstyled"><a href="Producto.html">ANNUALCYCLES STRATEGIES</a></li>
+			  			<li class="unstyled"><a href="Producto.html">PRIVARY F1 DISCREPCIONAL</a></li>
+			  			<li class="unstyled"><a href="Producto.html">PRIVARY F2 DISCREPCIONAL</a></li>
+			  			<li class="unstyled"><a href="Producto.html">ACAPITAL ESTRATEGIA GLOBAL</a></li>
+					</ul>
+			</div><!-- /span4 --> 
+      
+			<div class="span8">
+				<h3>SOCIEDADES</h3>
+				<hr class="hrsociedades">
+					<ul class="unstyled">
+						<li class="unstyled"><a href="Producto.html">CAT PATRIMONIS</a></li>
+					 	<li class="unstyled"><a href="Producto.html">URC PATRIMONIS</a></li>
+					 	<li class="unstyled"><a href="Producto.html">INVERCAT AM</a></li>
+					 	<li class="unstyled"><a href="Producto.html">NN 2003 INVERSION</a></li>
+					 	<li class="unstyled"><a href="Producto.html">CGI</a></li>
+					 	<li class="unstyled"><a href="Producto.html">MAGNUS GLOBAL FLEXIBLE</a></li>
+					 	<li class="unstyled"><a href="Producto.html">STOCK AREA</a></li>
+					 	<li class="unstyled"><a href="Producto.html">GORINVEST AM</a></li>
+					 	<li class="unstyled"><a href="Producto.html">GOVER AM</a></li>
+					 	<li class="unstyled"><a href="Producto.html">INVERSION AGO</a></li>
+					 	<li class="unstyled"><a href="Producto.html">MIXTO EUROPA 30</a></li>
+					 	<li class="unstyled"><a href="Producto.html">KOALA CAPITAL</a></li>
+					 	<li class="unstyled"><a href="Producto.html">NORIA I</a></li>
+					 	<li class="unstyled"><a href="Producto.html">MELLURU</a></li>
+					</ul>
+				<div class="product-list">
+					<ul class="unstyled">
+						<li class="unstyled"><a href="Producto.html">LASCONI INVERSIONES</a></li>
+						<li class="unstyled"><a href="Producto.html">DIXION INVESTMENT</a></li>
+						<li class="unstyled"><a href="Producto.html">BENASTRUC INVESTMENT</a></li>
+						<li class="unstyled"><a href="Producto.html">STRESCB INVESTMENTS</a></li>
+						<li class="unstyled"><a href="Producto.html">Sociedades GAMAVO</a></li>
+						<li class="unstyled"><a href="Producto.html">JORICK INVESTMENTS</a></li>
+						<li class="unstyled"><a href="Producto.html">NIGOY INVERSIONES</a></li>
+						<li class="unstyled"><a href="Producto.html">RIVIPOLI INVESTMENTS</a></li>
+						<li class="unstyled"><a href="Producto.html">PRIVACLAR, SICAV</a></li>
+					</ul> 
+				</div>
+			</div><!-- /span8 --> 
+		</div><!-- /row --> 
+	</div><!-- /container -->    
+</div> 
+<!-- jQuery box slide out -->
+
+
+	 <script type="text/javascript">
+          
+          $(function() {
+	      	$('#productos_link').toggle(function() {
+		      	$('#overlay').fadeIn('fast',function(){
+			      	$('#productos').animate({'top':'135px'},500); 
+          });          
+          }, function() {
+ 	          $('#productos').animate({'top':'-400px'},500,function(){ 
+		          $('#overlay').fadeOut('fast');
+                    });
+                    });
+            });
+              
+      </script>
+      
+ <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+     
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+	 <!-- Validate plugin -->
+	<script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/jquery.validate.js"></script>
+    <script src="js/plugin.js"></script>
+	
+
+
+	
+
+
+	
+</body>
+</html>
